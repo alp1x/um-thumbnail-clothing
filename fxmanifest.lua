@@ -12,7 +12,8 @@ ui_page 'html/index.html'
 
 files {
     'config.json',
-    'html/*'
+    'html/*',
+    'images/**'
 }
 
 client_script 'client.js'
@@ -20,6 +21,6 @@ client_script 'client.js'
 server_script 'server.js'
 
 dependencies {
-	'screenshot-basic',
+    'screencapture',
     'yarn'
 }
