@@ -12,8 +12,8 @@ const config = JSON.parse(LoadResourceFile(GetCurrentResourceName(), "config.jso
 // FXServer's Node permission model only allows fs writes inside our own resource folder
 const mainSavePath = `resources/${resName}/images`;
 
-// Set this in server.cfg:  set fivemanage_api_key "your-key-here"
-const FIVEMANAGE_API_KEY = GetConvar('fivemanage_api_key', '');
+// Set this in server.cfg: set fivemanage:key "your-key-here"
+const FIVEMANAGE_API_KEY = GetConvar('fivemanage:key', '');
 
 if (config.remoteUploadFiveManage && !FIVEMANAGE_API_KEY) {
 	console.error('[fivem-greenscreener] remoteUploadFiveManage is enabled but convar "fivemanage_api_key" is not set.');
