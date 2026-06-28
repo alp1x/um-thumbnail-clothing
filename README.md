@@ -1,6 +1,6 @@
 # um-thumbnail-clothing
 
-<p>fork <a href="https://github.com/Bentix-cs/fivem-greenscreener​" target="_blank">fivem-greenscreener</a></p>
+fork [fivem-greenscreener​](https://github.com/Bentix-cs/fivem-greenscreener​)
 
 ## Installation
 
