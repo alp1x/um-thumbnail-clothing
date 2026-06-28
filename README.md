@@ -1,4 +1,4 @@
-# um-thumbnal-clothing
+# um-thumbnail-clothing
 
 <p>fork <a href="https://github.com/Bentix-cs/fivem-greenscreener​" target="_blank">fivem-greenscreener</a></p>
 
